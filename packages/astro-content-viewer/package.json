@@ -1,0 +1,41 @@
+{
+  "name": "astro-content-viewer",
+  "description": "Astro Dev Toolbar for viewing content collections, schemas, and variables",
+  "keywords": [
+    "withastro",
+    "astro-integration",
+    "content-viewer",
+    "devtools"
+  ],
+  "version": "0.1.2",
+  "author": "dofbi",
+  "homepage": "https://github.com/dofbi/astro-content-viewer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dofbi/astro-content-viewer.git",
+    "directory": "packages/astro-content-viewer"
+  },
+  "bugs": "https://github.com/dofbi/astro-content-viewer/issues",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "files": [
+    "app.ts",
+    "index.ts",
+    "README.md",
+    "package.json",
+    "tsconfig.json"
+  ],
+  "devDependencies": {
+    "astro": "^5.14.3"
+  },
+  "peerDependencies": {
+    "astro": "^5.14.3"
+  },
+  "dependencies": {
+    "@andypf/json-viewer": "^2.2.0",
+    "gray-matter": "^4.0.3"
+  }
+}

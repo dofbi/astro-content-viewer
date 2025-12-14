@@ -1,0 +1,13 @@
+{
+  "name": "astro-content-viewer-monorepo",
+  "private": true,
+  "workspaces": ["packages/*", "examples/*"],
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "publish": "pnpm -r publish --access public"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
